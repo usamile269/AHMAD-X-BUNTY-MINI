@@ -1,0 +1,18 @@
+{
+  "name": "♥️AHMAD MD PAIR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://image-link.edgeone.app/1781781559115-5fg0qz.jpg",
+  "repository": "https://github.com/AhmadMDofficial/Ahmad-MD-Mini-V2",
+  "keywords": ["@Ahmad-MD"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || AHMAD-MD OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
